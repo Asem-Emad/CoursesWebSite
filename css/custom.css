@@ -138,3 +138,13 @@ input:focus, select:focus {
 }
 
 /* content style end */
+
+.modal-body form input {
+	border: none;
+	padding: 5px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border-bottom: 3px solid var(--headerColor);
+	transition: all ease-in-out 0.5s;
+	width: 100%;
+}
